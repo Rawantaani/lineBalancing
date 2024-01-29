@@ -8,7 +8,8 @@ import Team from './pages/Team'
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import About from './pages/About'
-import ContactUs from './pages/contactUs'
+import ContactUs from './pages/ContactUs'
+
 
 
 function App() {
