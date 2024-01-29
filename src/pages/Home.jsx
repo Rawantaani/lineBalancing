@@ -22,7 +22,7 @@ const Home = () => {
     const formData = new FormData();
     formData.append('file', file);
 
-    axios.post('http://localhost:4000/upload', formData)
+    axios.post('https://linebalance.onrender.com/upload', formData)
       .then(response => {
         console.log(response.data);
       })
@@ -32,7 +32,7 @@ const Home = () => {
   };
 
   const handleDownload = () => {
-    window.location.href = 'http://localhost:4000/download';
+    window.location.href = 'https://linebalance.onrender.com/download';
   };
  
   return (
